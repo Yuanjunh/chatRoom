@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>chatroom</title>
+	<script type="text/javascript" src="javascripts/jquery.min.js"></script>
+	<script type="text/javascript" src="javascripts/jquery.cookie.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="javascripts/chat2.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/mine.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4" id="frame">
+			<h1 class="page-header">CHAT ROOM</h1>
+			<h6 class="text-right" id="person"> welcome &nbsp</h6>
+			<div id="dialog">
+		<!--test cases
+			<div class="well"><h4 style="display:inline;">dialog1</h4> <span>right</span><br/><div id="text">I am the second</div></div>
+				<div class="well"><h4 style="display:inline;">dialog2</h4> <span>right</span><br/><div id="text">I am the second</div></div>
+				<div class="well"><h4 style="display:inline;">dialog3</h4> <span>right</span><br/><div id="text">I am the second</div></div>
+				<div class="well"><h4 style="display:inline;">dialog4</h4> <span>right</span><br/><div id="text">I am the second</div></div>
+				<div class="well"><h4 style="display:inline;">dialog5</h4> <span>right</span><br/><div id="text">I am the second</div></div>
+				<div class="well"><h4 style="display:inline;">dialog6</h4> <span>right</span><br/><div id="text">I am the second</div></div>
+				<div class="well"><h4 style="display:inline;">dialog7</h4> <span>right</span><br/><div id="text">I am the second</div></div>
+				<div class="well"><h4 style="display:inline;">dialog8</h4> <span>right</span><br/><div id="text">I am the second</div></div>
+				<div class="well"><h4 style="display:inline;">dialog9</h4> <span>right</span><br/><div id="text">I am the second</div></div>
+				<div class="well"><h4 style="display:inline;">last!</h4> <span>right</span><br/><div id="text">I am the second</div></div>
+				<div class="well" style="color:#f00">System: you joined！<span>now()</span></div> 
+		-->
+			</div>						
+			<div id="input">
+				<textarea class="form-control" rows="2"  name="message" id="message"></textarea>
+				<button id="send" class="btn btn-primary btn-block">Send</button>
+			</div>
+		</div>
+		<div class="col-md-4">
+		</div>
+	</div>
+</div>
+
+		<script src="javascripts/bootstrap.min.js"></script>
+	</body>
+	</html>
