@@ -7,7 +7,7 @@ ChatRoom is the first project for the CMU 18652 class. It is based on Node.js an
 
 Resources
 ======
-Express.js; Socket.io; Bootstrap3; jQuery
+Express.js; Socket.io; Bootstrap3; jQuery; SQLite3
 
 Browser compatibility 
 ======
