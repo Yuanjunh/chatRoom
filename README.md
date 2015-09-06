@@ -19,10 +19,10 @@ http://youtu.be/YYw3zZmPCHk
 
 Functions
 ======
-- Enter into the chat room with a name;
-- receive all users' messages;
-- post messages;
-- system notifications when someone left;
-- show messages' timestamp;
+- Enter into the chat room with a name
+- receive all users' messages
+- post messages
+- system notifications when someone left
+- show messages' timestamp
 - dynamically updated;
 - load previous records when the same user re-enters the room;
